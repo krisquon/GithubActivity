@@ -20,7 +20,7 @@ dorun.sh (no arguments)
   5) What does the "-p" option do? Look it up in teh dcoumentation
   6) What does the "docker exec... init.sh" do? why is there a sleep before it? 
   
-(FOR 50% EXTRA CREDIT, WRITE the next shell script. Otherwise, you can just
+(FOR 25% EXTRA CREDIT, WRITE the next shell script. Otherwise, you can just
 demonstrate the swap  by hand.)
 
 doswap.sh (one argument, the docker image, say DDDD, you want to run) (WRITE THIS FOR EXTRA CREDIT!!) 
