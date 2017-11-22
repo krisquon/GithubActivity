@@ -3,12 +3,12 @@ services:
   web1:
     ports:
      - "8080"
-    image: devanbu/wareg2
+    image: activity
 
   proxy:
     ports:
      - "8888:8888"
-    image: devanbu/dummy-redirect
+    image: nginx
 
 
    
