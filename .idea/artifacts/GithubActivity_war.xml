@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="GithubActivity:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="GithubActivity-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="GithubActivity:war exploded" />
+    </root>
+  </artifact>
+</component>
