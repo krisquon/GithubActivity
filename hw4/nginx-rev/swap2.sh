@@ -3,4 +3,4 @@
 cd /etc/nginx
 sed -e s?web1:8080/activity/?web2:8080/activity/? <nginx.conf > /tmp/xxx
 cp /tmp/xxx nginx.conf
-service nginx reload 
+service nginx reload

@@ -33,7 +33,7 @@ public class GithubQuerier {
             List<String> sha = new ArrayList<String>();
             List<String> message = new ArrayList<String>();
             for(int j = 0; j < commits.length(); j++) {
-                JSONObject commit = commits.getJSONObject(0);
+                JSONObject commit = commits.getJSONObject(j);
                 sha.add(commit.getString("sha"));
                 message.add(commit.getString("message"));
             }
